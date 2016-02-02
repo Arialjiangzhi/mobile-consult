@@ -1,0 +1,7 @@
+1、移动端需要采用html5的规范，注意文档头的描述doctype等内容
+2、z-index的值是整形，不要加上引号
+3、font-family应该可以抽离出来放在body里面，font-family中不能出现中文，如果是雅黑，应该改为"Microsoft Yahei"，其他字号都有相应英文表达
+4、font-size很多地方都可以抽离出来12px，可以设置到body里面
+5、不是表格呈现的地方一般不采用table，可以采用ul、li的方式，总结就是table只是显示表格，不用来布局
+6、网页只能适应Iphone6，一iphone6作为制作的基础，需要测试iphone5和iphone6 plus等屏幕（包括超过6 plus，有问题的地方），需要页面具有自适应能力，宽度很多地方都应该自适应，包括footer.和那个tab切换的地方，不能固定宽度
+7、footer应该固定，采用position fixed布局
